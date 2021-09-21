@@ -126,6 +126,12 @@ header .fa-times{
   transform: rotate(180deg);
 }
 
+.header-active{
+  background: #fff;
+  box-shadow: 0 .1rem .3rem #rgba(0, 0, 0, .3);
+  padding: .5rem 1rem;
+}
+
 .home .content h1{
   font-size: 4rem;
   color: var(--black);
@@ -139,6 +145,31 @@ header .fa-times{
   font-size: 3rem;
   color: var(--black);
 }
+
+.services{
+  background: #eee;
+}
+
+.services .content .box{
+  margin: 3rem 0;
+}
+
+.services .content .box h3{
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.services .content .box h3 i{
+  padding: 0 1rem;
+  color: var(--blue);
+}
+
+.services .content .box p{
+  font-size: 1.7rem;
+  padding-left: 6rem;
+  color: #666;
+}
+
 
 
 
