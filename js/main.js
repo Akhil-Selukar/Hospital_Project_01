@@ -14,4 +14,13 @@ $(document).ready(function(){
       $('header').removeClass('header-active');
     }
   });
+
+  $('.facility').magnificPopup({
+    delegate:'a',
+    type:'image',
+    gallery:{
+      enabled:true
+    }
+  });
+
 });
